@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+      <style>
+    textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+      </style>
+    <title> 
+      Anamnez
+    </title> 
+  </head> 
+  
+  <body style="text-align:center;" id="body"> 
+    <h1 style="color:green;"> 
+      Անամնեզ 
+    </h1> 
+  
+    <p> 
+        <!-- Making a text input -->
+        <input type="number" id="հհ" placeholder="Զինծառայողի հերթական համարը"><br/><br/>
+        <textarea type="text" id="ՀիվանդացելԷ" placeholder="1․ Հիվանդացել է, հիվանդությունը, որ տարիքում" ></textarea><br/><br/> 
+        <input type="text" id="վիրավորումները" placeholder="2․ա) վիրավորումները"> <br/><br/>
+        <input type="text" id="Կոնտուզիաները" placeholder="2․բ) կոնտուզիաները"> <br/><br/>
+        <input type="text" id="Վիրահատությունները" placeholder="3․ Վիրահատությունները"> <br/><br/>
+        <input type="text" id="ԱրձակուրդներըՀիվանդությանՊատճառով" placeholder="4. Արձակուրդները հիվանդությունների պատճառով"> <br/><br/>
+        <input type="text" id="ԲուժումնԱռողջարաններում" placeholder="5. Բուժումն առողջարաններում"> <br/><br/>
+        <input type="text" id="Ժառանգականությունը" placeholder="6. Ժառանգականությունը, ընտանեկան անամնեզ"> <br/><br/>
+        <input type="text" id="ԻնչԴեղերՉիԿարողանումԸնդունել" placeholder="7. Ինչ դեղեր չի կարողանում ընդունել"> <br/><br/>
+        <input type="text" id="ՆերարկումներիԱզդեցությունը" placeholder="8. Ներարկումների ազդեցությունը, օրգանիզմի արձագանքը"> <br/><br/>
+        <input type="text" id="ՎնասակարՍովորությունները" placeholder="9. Վնասակար սովորությունները, խմել, ծխել և այլն"> <br/><br/>
+        <input type="text" id="ՀատուկՆշումներ" placeholder="10. Հատուկ նշումներ"> <br/><br/>
+    
+        <!-- Button to send data -->
+        <button id="ուղարկել" onclick="sendJSON()">ուղարկել</button> 
+  
+      <!-- For printing result from server -->
+      <!-- <p class="result" style="color:green"></p>  -->
+      
+   </p> 
+  <script  src="../JS/Anamnez.js"></script>
+  <link rel="stylesheet" type="text/css" href="../CSS/Anamnez.css">
+  </body> 
+</html> 

@@ -1,0 +1,82 @@
+#body{
+    background-image: url("../../21.png");
+}
+
+#հհ{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#ՀիվանդացելԷ{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#վիրավորումները{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#Կոնտուզիաները{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+
+#Վիրահատությունները{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#ԱրձակուրդներըՀիվանդությանՊատճառով{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#ԲուժումնԱռողջարաններում{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#Ժառանգականությունը{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#ԻնչԴեղերՉիԿարողանումԸնդունել{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#ՆերարկումներիԱզդեցությունը{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#ՎնասակարՍովորությունները{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#ՀատուկՆշումներ{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#ուղարկել{
+    border-radius: 15px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+}

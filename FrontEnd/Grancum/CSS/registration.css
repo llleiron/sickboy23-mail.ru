@@ -1,0 +1,29 @@
+#body{
+    background-image: url("../../21.png");
+    
+}
+
+#Անուն{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+
+}
+#Ազգանուն{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#Հայրանուն{
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+
+#Գրանցում{
+    border-radius: 15px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
